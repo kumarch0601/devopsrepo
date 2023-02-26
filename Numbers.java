@@ -9,7 +9,7 @@ public class Numbers {
         } else if ("-".equals(operator)) {
             System.out.println("Substract: " + (num1 - num2));
         } else {
-            System.out.println("Invalid operator");
+            System.out.println("Enter valid operator");
         }
     }
 }

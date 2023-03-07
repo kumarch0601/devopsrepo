@@ -6,6 +6,7 @@ public class Numbers {
     }
 
     public int numberOperations(int num1, int num2, String operator) {
+        int i = 1/0;
         if ("+".equals(operator)) {
             System.out.println("Add:" + (num1 + num2));
             return (num1 + num2);

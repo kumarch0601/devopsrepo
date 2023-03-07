@@ -5,7 +5,7 @@ public class Numbers {
         String operator = args[2];
         
         if ("+".equals(operator)) {
-            System.out.println("WebHook test");
+            System.out.println("First WebHook test");
             System.out.println("Add: " + (num1 + num2));
         } else if ("-".equals(operator)) {
             System.out.println("Substract: " + (num1 - num2));

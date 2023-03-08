@@ -18,7 +18,7 @@ pipeline {
             }
             post {
                 always {
-                    junit './devopsrepo/numbers-proj/target/surefire-reports/*.xml'
+                    archiveArtifacts 'target/*.jar'
                 }
             }
         }

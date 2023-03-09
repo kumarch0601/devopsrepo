@@ -3,3 +3,4 @@ new line
 third line
 fourth line
 new code changes
+other new line
